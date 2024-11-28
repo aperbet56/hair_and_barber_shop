@@ -1,0 +1,28 @@
+/**** Importation des polices ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Variables CSS ****/
+
+:root {
+    --background-color-1: #fffffe;
+    --background-color-2: #e3f6f5;
+    --color-title: #272343;
+    --color-text: #2d334a;
+    --yellow: #ffd803;
+    --font-title: "Roboto", sans-serif;
+    --font-text: "Dosis", sans-serif;
+}
+
+/**** Style général de la page ****/
