@@ -326,6 +326,7 @@ section p~span {
     background-color: var(--background-color-1);
     padding: 20px;
     border-radius: 5px;
+    box-shadow: 2px 5px 3px rgba(33, 33, 33, 0.736);
 }
 
 #prestations article h3 {
@@ -374,6 +375,7 @@ section p~span {
     height: 300px;
     border-radius: 5px 5px 0 0;
     object-fit: cover;
+    filter: none;
 }
 
 #team article .description {
