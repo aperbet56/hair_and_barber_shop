@@ -93,6 +93,7 @@ body {
 .hero h1 {
     font-size: var(--fs-50);
     text-transform: capitalize;
+    text-shadow: 3px 3px 3px rgba(248, 248, 248, 0.6);
 }
 
 .hero p {
@@ -374,6 +375,12 @@ section p~span {
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    transition: box-shadow 0.3s ease-out;
+}
+
+#team article:hover {
+    /*box-shadow: -12px 12px 6px -7px var(--yellow);*/
+    box-shadow: 0px 1px 12px 0px var(--yellow);
 }
 
 #team img:not(#team .description img, #team h2 img) {
