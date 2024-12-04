@@ -327,6 +327,12 @@ section p~span {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 2px 5px 3px rgba(33, 33, 33, 0.736);
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
+}
+
+#prestations .articles article:hover {
+    transform: scale(1.02);
 }
 
 #prestations article h3 {
