@@ -405,6 +405,7 @@ section p~span {
     align-items: center;
     padding: 0 30px;
     font-size: var(--fs-20);
+    color: var(--yellow);
 }
 
 #team .description img {
