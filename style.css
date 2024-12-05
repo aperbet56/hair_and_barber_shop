@@ -94,6 +94,7 @@ body {
     font-size: var(--fs-50);
     text-transform: capitalize;
     text-shadow: 3px 3px 3px rgba(248, 248, 248, 0.6);
+    padding: 0 10px;
 }
 
 .hero p {
@@ -356,6 +357,7 @@ section p~span {
 
 .contact__link {
     font-size: var(--fs-24);
+    font-weight: 500;
     position: relative;
     z-index: 1;
 }
@@ -629,4 +631,33 @@ footer {
 
 footer a {
     color: var(--background-color-1);
+}
+
+/**** Responsive design version tablette ****/
+
+@media screen and (max-width: 992px) {
+    a {
+        font-size: var(--fs-18);
+    }
+
+    .hero h1 {
+        font-size: var(--fs-42);
+    }
+
+    section h2 {
+        font-size: var(--fs-30);
+    }
+
+    section h3 {
+        font-size: var(--fs-24);
+    }
+
+    section h4 {
+        font-size: var(--fs-20);
+    }
+
+    section p,
+    section p~span {
+        font-size: var(--fs-18);
+    }
 }
