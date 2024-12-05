@@ -100,6 +100,7 @@ body {
 .hero p {
     font-size: var(--fs-36);
     margin-bottom: 25px;
+    padding: 0 10px;
 }
 
 .hero .anchors {
@@ -619,6 +620,7 @@ section p~span {
 }
 
 /**** Footer ****/
+
 footer {
     width: 100%;
     height: 52px;
@@ -659,5 +661,70 @@ footer a {
     section p,
     section p~span {
         font-size: var(--fs-18);
+    }
+}
+
+/**** Responsive design version mobile ****/
+
+@media screen and (max-width: 572px) {
+    header .menu {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        background: transparent;
+        border: none;
+        display: block;
+        cursor: pointer;
+    }
+
+    header .menu img {
+        width: 80%;
+    }
+
+    header ul {
+        position: absolute;
+        top: 52px;
+        text-transform: uppercase;
+        background-color: var(--yellow);
+        display: none;
+    }
+
+    header li {
+        padding: 15px 0;
+        text-align: center;
+        background-color: var(--yellow);
+    }
+
+    .activeMenu {
+        display: block;
+    }
+
+    .hero h1 {
+        font-size: var(--fs-36);
+    }
+
+    section h2 {
+        font-size: var(--fs-24);
+    }
+
+    section img {
+        width: 25px;
+    }
+
+    #prestations .articles article,
+    #contact table,
+    #team article,
+    #contact .address {
+        max-width: 100%;
+    }
+
+    #team .nameAndNetworks {
+        flex-direction: column;
+    }
+
+    #team p:not(#team h2 ~ p) {
+        justify-content: center;
     }
 }
