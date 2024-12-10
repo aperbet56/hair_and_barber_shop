@@ -88,19 +88,19 @@ body {
 .hero p {
     color: var(--background-color-1);
     text-align: center;
+    padding: 0 10px;
 }
 
 .hero h1 {
     font-size: var(--fs-50);
     text-transform: capitalize;
     text-shadow: 3px 3px 3px rgba(248, 248, 248, 0.6);
-    padding: 0 10px;
+    line-height: 1.4;
 }
 
 .hero p {
     font-size: var(--fs-36);
     margin-bottom: 25px;
-    padding: 0 10px;
 }
 
 .hero .anchors {
@@ -411,7 +411,7 @@ section p~span {
 
 #team article:hover {
     /*box-shadow: -12px 12px 6px -7px var(--yellow);*/
-    box-shadow: 0px 1px 12px 0px var(--yellow);
+    box-shadow: 0 1px 12px 0 var(--yellow);
 }
 
 #team img:not(#team .description img, #team h2 img) {
