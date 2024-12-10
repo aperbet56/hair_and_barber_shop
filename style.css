@@ -207,7 +207,7 @@ header {
     display: block;
     content: "";
     width: 0;
-    height: 1px;
+    height: 2px;
     background-color: var(--color-text);
     transition: width 0.4s ease-in-out;
 }
