@@ -188,40 +188,36 @@ header {
     z-index: 20;
 }
 
-.menu {
-    display: none;
-}
-
-header nav,
-header ul {
-    width: 100%;
-    height: 100%;
-}
-
-header ul {
+.navbar {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 5px;
-}
-
-header li {
+    justify-content: center;
     padding: 10px;
-    transition: background-color 0.2s ease-in-out,
-        border-radius 0.2s ease-in-out;
 }
 
-header li:hover {
-    background-color: var(--color-title);
-    border-radius: 5px;
+.navbar__links {
+    display: flex;
 }
 
-header li a {
-    transition: color 0.3s ease-in-out;
+.navbar__link {
+    padding: 0 10px;
 }
 
-header li:hover a {
-    color: var(--yellow);
+.navbar__link>a::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: var(--color-text);
+    transition: width 0.4s ease-in-out;
+}
+
+.navbar__link:hover>a::after {
+    width: 100%;
+}
+
+.burger {
+    display: none;
 }
 
 /**** Down link ****/
@@ -705,39 +701,6 @@ footer a {
 /**** Responsive design version mobile ****/
 
 @media screen and (max-width: 572px) {
-    header .menu {
-        position: absolute;
-        right: 10px;
-        top: 10px;
-        width: 32px;
-        height: 32px;
-        background: transparent;
-        border: none;
-        display: block;
-        cursor: pointer;
-    }
-
-    header .menu img {
-        width: 80%;
-    }
-
-    header ul {
-        position: absolute;
-        top: 52px;
-        text-transform: uppercase;
-        background-color: var(--yellow);
-        display: none;
-    }
-
-    header li {
-        padding: 15px 0;
-        text-align: center;
-        background-color: var(--yellow);
-    }
-
-    .activeMenu {
-        display: block;
-    }
 
     .hero h1 {
         font-size: var(--fs-36);
