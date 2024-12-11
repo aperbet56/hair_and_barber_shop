@@ -39,6 +39,7 @@ a {
     text-decoration: none;
     color: var(--color-text);
     font-size: var(--fs-20);
+    font-weight: 500;
 }
 
 ul {
@@ -125,7 +126,6 @@ body {
     position: relative;
     overflow: hidden;
     font-size: var(--fs-20);
-    font-weight: 500;
 }
 
 .hero .anchors a:first-of-type {
@@ -392,7 +392,6 @@ section p~span {
 
 .contact__link {
     font-size: var(--fs-24);
-    font-weight: 500;
     position: relative;
     z-index: 1;
 }
@@ -735,6 +734,18 @@ footer a:hover {
     section p,
     section p~span {
         font-size: var(--fs-18);
+    }
+
+    footer {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__list {
+        width: 100%;
+        margin: 20px 0;
     }
 }
 
