@@ -675,15 +675,38 @@ section p~span {
 footer {
     width: 100%;
     height: auto;
+    padding: 50px 30px 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     background-color: var(--color-title);
+}
+
+.footer__list {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 33%;
+    margin-bottom: 20px;
+}
+
+.list__title {
+    margin: 20px 0;
+    color: var(--background-color-1);
     font-size: var(--fs-24);
+}
+
+.footer__list ul li {
+    padding-top: 8px;
 }
 
 footer a {
     color: var(--background-color-1);
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: var(--yellow);
 }
 
 /**** Responsive design version tablette ****/
