@@ -310,7 +310,7 @@ section p~span {
 
 .carousel {
     width: 100%;
-    max-width: 560px;
+    max-width: 690px;
     min-width: 240px;
     position: relative;
     margin: 0 auto;
@@ -892,6 +892,10 @@ footer a:hover {
     #team article,
     #contact .address {
         max-width: 100%;
+    }
+
+    .contact__link {
+        font-size: var(--fs-20);
     }
 
     #team .nameAndNetworks {
