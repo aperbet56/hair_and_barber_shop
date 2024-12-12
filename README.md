@@ -6,7 +6,7 @@ Création d'un site complet Hair & barber shop en HTML5, CSS3 et JavaScript. Ce 
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/hair_and_barber_shop/
 
 ## Projet développé avec
 
