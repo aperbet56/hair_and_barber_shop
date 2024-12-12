@@ -16,6 +16,7 @@ Lien vers le projet : https://aperbet56.github.io/hair_and_barber_shop/
 - Utilisation d'un normaliseur : le fichier normalize.css
 - Importation des polices "Dosis" et "Roboto"
 - Animations CSS (transition, @keyframes)
+- Utilisation du cubic-bezier
 - Création de bouton marquee
 - Utilisation de pseudo-élément
 - Page web responsive
