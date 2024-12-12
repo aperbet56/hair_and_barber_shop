@@ -6,10 +6,10 @@
 /**** Variables CSS ****/
 
 :root {
-    --background-color-1: #fffffe;
-    --background-color-2: #e3f6f5;
-    --color-title: #272343;
-    --color-text: #2d334a;
+    --white: #fffffe;
+    --green: #e3f6f5;
+    --black: #272343;
+    --blue: #2d334a;
     --yellow: #ffd803;
     --font-title: "Dosis", sans-serif;
     --font-text: "Roboto", sans-serif;
@@ -34,7 +34,7 @@
 
 a {
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--dark);
     font-size: var(--fs-20);
     font-weight: 500;
 }
@@ -46,12 +46,12 @@ ul {
 h2,
 h3,
 h4 {
-    color: var(--color-title);
+    color: var(--blue);
     font-family: var(--font-title);
 }
 
 p {
-    color: var(--color-text);
+    color: var(--dark);
 }
 
 
@@ -82,7 +82,7 @@ body {
 
 .hero h1,
 .hero p {
-    color: var(--background-color-1);
+    color: var(--white);
     text-align: center;
     padding: 0 10px;
 }
@@ -128,7 +128,7 @@ body {
 }
 
 .hero .anchors a:last-of-type {
-    background-color: var(--background-color-1);
+    background-color: var(--white);
 }
 
 .marquee {
@@ -178,7 +178,7 @@ header {
     top: 0;
     width: 100%;
     background-color: var(--yellow);
-    border-bottom: 1px solid var(--color-text);
+    border-bottom: 1px solid var(--black);
     z-index: 20;
 }
 
@@ -202,7 +202,7 @@ header {
     content: "";
     width: 0;
     height: 2px;
-    background-color: var(--color-text);
+    background-color: var(--black);
     transition: width 0.4s ease-in-out;
 }
 
@@ -224,7 +224,7 @@ header {
     bottom: 35px;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px solid var(--background-color-1);
+    border: 1px solid var(--white);
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -286,7 +286,7 @@ section p~span {
 /**** Section values ****/
 
 #values {
-    background-color: var(--background-color-1);
+    background-color: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -324,7 +324,7 @@ section p~span {
 }
 
 .activeDots {
-    background-color: var(--color-title);
+    background-color: var(--blue);
 }
 
 .inactiveDots {
@@ -335,13 +335,13 @@ section p~span {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    border: 1px solid var(--color-title);
+    border: 1px solid var(--blue);
 }
 
 /**** Section prestations ****/
 
 #prestations {
-    background-color: var(--background-color-2);
+    background-color: var(--green);
     text-align: center;
 }
 
@@ -356,7 +356,7 @@ section p~span {
 #prestations .articles article {
     width: 100%;
     max-width: 530px;
-    background-color: var(--background-color-1);
+    background-color: var(--white);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 2px 5px 3px rgba(33, 33, 33, 0.736);
@@ -413,7 +413,7 @@ section p~span {
 /**** Section team ****/
 
 #team {
-    background-color: var(--background-color-1);
+    background-color: var(--white);
 }
 
 #team .articles {
@@ -499,7 +499,7 @@ section p~span {
     justify-content: center;
     align-items: center;
     position: relative;
-    color: var(--background-color-1);
+    color: var(--white);
     overflow: hidden;
 }
 
@@ -524,7 +524,7 @@ section p~span {
 }
 
 .content p {
-    color: var(--background-color-1);
+    color: var(--white);
 }
 
 /**** Animation slider ****/
@@ -565,14 +565,14 @@ section p~span {
 }
 
 #comments h2 {
-    color: var(--background-color-1);
+    color: var(--white);
     display: block;
 }
 
 /**** Section contact ****/
 
 #contact {
-    background-color: var(--background-color-2);
+    background-color: var(--green);
 }
 
 #contact div:not(.address, .networks) {
@@ -592,7 +592,7 @@ section p~span {
 }
 
 #contact .address>div {
-    box-shadow: 6px 6px 5px 0px var(--color-text);
+    box-shadow: 6px 6px 5px 0px var(--black);
     transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -601,7 +601,7 @@ section p~span {
 }
 
 #contact .address div:not(.networks) {
-    background-color: var(--color-title);
+    background-color: var(--blue);
     height: 200px;
     border-radius: 5px;
     color: var(--yellow);
@@ -644,18 +644,18 @@ section p~span {
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 10px;
-    color: var(--color-title);
+    color: var(--blue);
 }
 
 #contact tr:not(:last-of-type) {
-    border-bottom: 1px solid var(--color-text);
+    border-bottom: 1px solid var(--black);
     line-height: 1.5;
 }
 
 #contact td {
     margin-block: 12px;
     padding-block: 12px;
-    color: var(--color-text);
+    color: var(--black);
 }
 
 #contact tr td:last-of-type {
@@ -669,7 +669,7 @@ footer {
     padding: 30px 30px;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-title);
+    background-color: var(--blue);
 }
 
 .footer__list {
@@ -681,7 +681,7 @@ footer {
 }
 
 .list__title {
-    color: var(--background-color-1);
+    color: var(--white);
     font-size: var(--fs-24);
 }
 
@@ -690,7 +690,7 @@ footer {
 }
 
 footer a {
-    color: var(--background-color-1);
+    color: var(--white);
     transition: color 0.3s ease-in-out;
 }
 
@@ -809,7 +809,7 @@ footer a:hover {
         width: 45px;
         height: 2px;
         border-radius: 3px;
-        background-color: var(--color-text);
+        background-color: var(--black);
         transition: all 0.5s ease-in-out;
     }
 
@@ -820,7 +820,7 @@ footer a:hover {
         height: 2px;
         position: absolute;
         left: 0;
-        background-color: var(--color-text);
+        background-color: var(--black);
         border-radius: 3px;
         transition: all 0.5s ease-in-out;
     }
