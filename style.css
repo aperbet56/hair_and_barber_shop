@@ -433,7 +433,7 @@ section p~span {
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    transition: box-shadow 0.3s ease-out;
+    transition: box-shadow 0.3s cubic-bezier(.72, .24, .49, .94);
 }
 
 #team article:hover {
@@ -593,7 +593,7 @@ section p~span {
 
 #contact .address>div {
     box-shadow: 6px 6px 5px 0px var(--black);
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 #contact .address>div:hover {
