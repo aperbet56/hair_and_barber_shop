@@ -1,5 +1,7 @@
 ## 💇 HAIR & BARBER SHOP 💈
 
+![Design preview for the hair and barber project](./img/banner.png)
+
 ## Le challenge
 
 Création d'un site complet Hair & barber shop en HTML5, CSS3 et JavaScript. Ce site présente notamment les différents services proposés par ce commerçant et les personnes qui y travaillent. Vous trouverez également les adresses de l'établissement, les horaires ainsi que les commentaires laissés par des clients.
